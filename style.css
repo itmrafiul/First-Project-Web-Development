@@ -1,0 +1,228 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background-image: url("image.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+
+.main{
+    width: 100%;
+    height: 100vh;
+}
+.navbar{
+    width: 1200px;
+    height: 75px;
+    margin: auto;
+}
+.icon{
+    width: 200px;
+    float: left;
+}
+.icon h2{
+    color: #1a8c75;
+    font-size: 50px;
+    font-family: Arial, Helvetica, sans-serif
+    padding: 10px;
+    margin: 5px;
+    float: left;
+}
+
+.menu{
+    width: 400px;
+    float: left;
+    height: 70px;
+}
+.menu ul{
+    float: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.menu ul li{
+    list-style: none;
+    margin-left: 62px;
+    margin-top: 27px;
+    font-size: 14px;
+}
+.menu ul li a{
+    text-decoration: none;
+    color: greenyellow;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 900;
+    font-weight: bolder;
+    font-size: 20px;
+}
+.search{
+    width: 330px;
+    float: left;
+    margin-left: 270px;
+
+}
+.srch{
+    font-family: 'Courier New', Courier, monospace;
+    width: 200px;
+    height: 16px;
+    background: transparent;
+    border-radius: 2px solid #1a8c75;
+    margin-top: 13px;
+    color: black;
+    font-size: 16px;
+    padding: 10px;
+   border-bottom-left-radius: 5px;
+   border-top-left-radius: 5px;
+   
+}
+.btn{
+    width: 100px;
+    height: 40px;
+    background: #1a8c75;
+    border: 2px solid #1a8c75;
+    margin-top: 13px;
+    color: white;
+    font-size: 15px;
+}
+.btn:hover{
+    color: black;
+    background-color: blue;
+}
+.content{
+    width: 1200px;
+    height: auto;
+    margin: auto;
+    color: white;
+    position: relative;
+}
+.content h1{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 50px;
+    padding-left: 20px;
+
+}
+.content span{
+    color: #1a8c75;
+    font-size: 65px;
+
+}
+.content p{
+    padding-left: 20px;
+    padding-bottom: 2px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    letter-spacing: 1,2;
+    line-height: 30px;
+    color: white;
+}
+
+.joinBtn{
+    width: 160px;
+    height: 40px;
+    background-color:#1a8c75;
+    border: none;
+    margin-bottom: 10px;
+    margin-left: 230px;
+    font-size: 18px;
+    border-radius: 10px;
+    transition: 5s ease-in-out;
+    
+    
+}
+.joinBtn :hover{
+    color: #1a1f1e;
+    
+    
+}
+
+  
+
+.form{
+    width: 250px;
+    height: 380px;
+    background: ;
+    position: absolute;
+    top: 100px;
+    left: 1130px;
+    transform: translate(0, -5%);
+    border-radius: 100px;
+    padding: 25px;
+}
+.form h2{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    color:white;
+    font-size: 22px;
+    background: #1a8c75;
+    margin: 2px;
+    padding: 5px;
+}
+form input{
+    width: 240px;
+    height: 35px;
+    background: transparent;
+    border-bottom:px ;
+    border-top: 1px;
+    border-left: 1px;
+    border-right: 1px;
+    letter-spacing: 1;
+    margin-top: 30px;
+    color: #1a8c75;
+    font-size: 16px;
+    border-radius: px;
+   
+    
+}
+.form input:focus{
+    outline: none;
+}
+::placeholder{
+    color: rgb(240, 255, 249);
+    font-family: Arial, Helvetica, sans-serif;
+
+ }
+ .loginBtn{
+    width: 240px;
+    height: 40px;
+    background: #1a8c75;
+    border: none;
+    margin-top: 30px;
+    font-size: 18px;
+    color: rgb(231, 234, 241);
+    transition: 0,4s ease;
+    border-radius: 18px;
+ }
+.loginBtn:hover{
+    color: #1a8c75;
+    background: rgb(38, 37, 39);
+}
+.link{
+    font-size: 18px;
+    padding-top: 10px;
+    text-align: center;
+    padding-bottom: 5px;
+    
+    
+}
+.signup{
+    text-align: center;
+    padding-top: 5px;
+    padding-bottom: 5px ;
+    color: rgb(124, 146, 148);
+    
+
+}
+.signup a{
+    text-decoration: none;
+    font-size: 18px;
+    color: rgb(136, 33, 33);
+}
+.liw{
+    font-size: 18px;
+    color: rgb(49, 116, 75);
+    text-align: center;
+    
+
+}
